@@ -67,3 +67,4 @@ python3 manage.py migrate //Apply changes
 
 create superuser for admin site
 python3 manage.py createsuperuser
+
