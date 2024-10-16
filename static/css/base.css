@@ -1,0 +1,36 @@
+.home {
+    padding: 30px;
+    background-color: #eaeef0;
+}
+
+.home h1 {
+    text-align: center;
+    color: darkcyan;
+    margin: 0;
+}
+
+.home .main-section {
+    display: flex;
+    justify-content: center;
+}
+
+.home .main-section img {
+    height: 450px;
+}
+
+.home .main-section p {
+    width: 500px;
+    padding: 25px;
+    padding-left: 20px;
+}
+
+@media (max-width: 767px) {
+    /* Mobile style */
+    .home .main-section {
+        flex-direction: column;
+    }
+
+    .home .main-section p {
+        width: auto;
+    }
+}
